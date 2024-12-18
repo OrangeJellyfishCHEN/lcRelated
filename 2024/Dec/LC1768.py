@@ -19,3 +19,8 @@ class LC1768(object):
 lc = LC1768()
 print(lc.mergeAlternately("abc", "pqr"))
 print(lc.mergeAlternately("ab", "pqrs"))
+
+"""
+Time complexity: O(n + m) -> need to iterate every char in each word
+Space Complexity: O(n + m) -> to store the result string and return
+"""
