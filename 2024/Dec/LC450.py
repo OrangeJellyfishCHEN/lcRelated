@@ -11,7 +11,7 @@ class LC450(object):
                 return root.left
             else:
                 cur = root.right
-                while cur.left is None:
+                while cur.left is not None:
                     cur = cur.left
                 cur.left = root.left
                 return root.right
